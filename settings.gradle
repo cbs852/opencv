@@ -5,6 +5,7 @@ dependencyResolutionManagement {
             url "https://maven.aliyun.com/repository/public"
             allowInsecureProtocol(true)
         }
+        maven { url 'https://jitpack.io' }
         google()
         mavenCentral()
     }
