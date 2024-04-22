@@ -1,0 +1,3 @@
+D:/Android/opencv-android-master/opencv/.cxx/Debug/4s6mz3y2/arm64-v8a/CMakeFiles/opencv_jni_shared.dir
+D:/Android/opencv-android-master/opencv/.cxx/Debug/4s6mz3y2/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Android/opencv-android-master/opencv/.cxx/Debug/4s6mz3y2/arm64-v8a/CMakeFiles/rebuild_cache.dir
