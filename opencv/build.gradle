@@ -99,11 +99,11 @@ println "OpenCV: " +openCVersionName + " " + project.buildscript.sourceFile
 
 android {
     namespace 'org.opencv'
-    compileSdkVersion 31
+    compileSdkVersion 26
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 31
+        targetSdkVersion 26
 
         versionCode openCVersionCode
         versionName openCVersionName
@@ -116,12 +116,12 @@ android {
         }
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
+//    compileOptions {
+//        sourceCompatibility JavaVersion.VERSION_1_8
+//        targetCompatibility JavaVersion.VERSION_1_8
+//    }
 
-    
+
 
     buildTypes {
         debug {
@@ -138,16 +138,16 @@ android {
         }
     }
 
-    buildFeatures {
-        aidl true
-        prefabPublishing true
-        buildConfig true
-    }
-    prefab {
-        opencv_jni_shared {
-            headers "native/jni/include"
-        }
-    }
+//    buildFeatures {
+//        aidl true
+//        prefabPublishing true
+//        buildConfig true
+//    }
+//    prefab {
+//        opencv_jni_shared {
+//            headers "native/jni/include"
+//        }
+//    }
 
     sourceSets {
         main {
